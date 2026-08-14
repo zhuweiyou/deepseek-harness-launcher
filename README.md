@@ -1,4 +1,4 @@
-﻿# deepseek-harness-launcher
+# deepseek-harness-launcher
 
 DeepSeek Harness Web 界面一键启动脚本（Windows）。
 
@@ -7,7 +7,7 @@ DeepSeek Harness Web 界面一键启动脚本（Windows）。
 - 双击 `DeepSeek Harness.bat` 即可后台启动 DeepSeek Harness Web UI
 - 启动前自动探测 `3080` 端口，若已被占用则先强制结束旧进程，再重新启动
 - 优先使用本机 `dsh` 命令；未安装时自动回退到 `npx -y @deepseek-ai/dsh web`（自动确认，无需手动输入 y）
-- 全程无黑窗口：服务在隐藏控制台中后台常驻运行
+- 服务在隐藏控制台中后台常驻运行，不会长期占用窗口（双击 `.bat` 时命令窗口会短暂闪现，属正常现象）
 - 服务就绪后自动用默认浏览器打开 `http://127.0.0.1:3080`
 
 ## 使用方法
