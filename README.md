@@ -18,7 +18,7 @@ DeepSeek Harness Web 界面一键启动脚本（Windows）。
 ## 前置要求
 
 - Windows 10/11
-- Node.js（含 npx）；若已全局安装 `@deepseek-ai/dsh` 则不是必须
+- Node.js（含 npx）
 
 ## 文件说明
 
